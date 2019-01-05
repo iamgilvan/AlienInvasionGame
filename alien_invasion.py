@@ -5,28 +5,28 @@ from Settings.settings import Settings
 
 
 def run_game():
-    # Inicializa o jogo e cria um objeto para a tela
+    # Initialize the game and create an object to the screen
     pygame.init()
     ai_settings = Settings()
-    # dimensões da tela
+    # Screen dimension
     screen = pygame.display.set_mode((ai_settings.screen_wigth, ai_settings.screen_height))
-    # Títlulo da Janela
+    # screen title
     pygame.display.set_caption("Alien Invasion")
 
-    # Define a cor de fundo no formato rgb
-    pg_color = (ai_settings.bg_color)
+    # Define the background color on the rgb format
+    pg_color = ai_settings.bg_color
 
-    # Inicia o loop principal do jogo
+    # Start the main loop of the game
     while True:
-        # Observa eventos do teclado e mouse
+        # Watching the keyboard and mouse events
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 sys.exit()
 
-        # Redesenha a tela a cada passagem pelo laço
+        # reset the screen color
         screen.fill(pg_color)
 
-        # Deixa a tela mais recente visível
+        # keep visible the last screen
         pygame.display.flip()
 
 
