@@ -7,3 +7,5 @@ class Settings():
         self.screen_height = 600
         # Define the background color on the rgb format
         self.bg_color      = (230, 230, 230)
+        # Settings to the spaceship
+        self.ship_speed_factor = 1.5
