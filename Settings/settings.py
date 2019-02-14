@@ -3,7 +3,7 @@ class Settings():
     def __init__(self):
         """Initializing the settings"""
         # Screen settings
-        self.screen_wigth  = 740
+        self.screen_width  = 740
         self.screen_height = 600
         # Define the background color on the rgb format
         self.bg_color      = (230, 230, 230)

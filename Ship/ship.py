@@ -7,7 +7,7 @@ class Ship():
         """ Initialize and define the initial position to spaceship"""
         self.screen = screen
         self.ai_settings = ai_settings
-        """ Load the spaceship image and get your react"""
+        # Load the spaceship image and get your react
         self.image = pygame.image.load('Images/ship.bmp')
         self.rect = self.image.get_rect()
         self.screen_rect = screen.get_rect()
