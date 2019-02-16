@@ -3,14 +3,14 @@ class Settings():
     def __init__(self):
         """Initializing the settings"""
         # Screen settings
-        self.screen_width  = 740
+        self.screen_width = 740
         self.screen_height = 600
         # Define the background color on the rgb format
-        self.bg_color      = (230, 230, 230)
+        self.bg_color = (230, 230, 230)
         # Settings to the spaceship
         self.ship_speed_factor = 1.5
         # Settings the bullets
-        self.bullet_speed_factor = 1
+        self.bullet_speed_factor = 3
         self.bullet_width = 3
         self.bullet_height = 15
         self.bullet_color = 60, 60, 60
