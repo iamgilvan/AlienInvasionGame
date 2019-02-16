@@ -9,9 +9,14 @@ class Settings():
         self.bg_color      = (230, 230, 230)
         # Settings to the spaceship
         self.ship_speed_factor = 1.5
-        # Configurações dos projéteis
+        # Settings the bullets
         self.bullet_speed_factor = 1
         self.bullet_width = 3
         self.bullet_height = 15
         self.bullet_color = 60, 60, 60
         self.bullets_allowed = 5
+        # Settings the aliens
+        self.alien_speed_factor = 1
+        self.fleet_drop_speed = 10
+        # fleet direction equal 1 represents the right and -1 represents the left
+        self.fleet_direction = 1
