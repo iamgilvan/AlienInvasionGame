@@ -9,6 +9,7 @@ class Settings():
         self.bg_color = (230, 230, 230)
         # Settings to the spaceship
         self.ship_speed_factor = 1.5
+        self.ship_limit = 3
         # Settings the bullets
         self.bullet_speed_factor = 3
         self.bullet_width = 3

@@ -20,6 +20,7 @@ class Ship():
         self.moving_right = False
         self.moving_left = False
 
+
     def update(self):
         """Update the spaceship position"""
         # Update the spaceship center position
@@ -30,7 +31,12 @@ class Ship():
         # Updated the object
         self.rect.centerx = self.center
 
+
     def blitme(self):
         """ Draws the spaceship in your actual position"""
         self.screen.blit(self.image, self.rect)
 
+
+    def center_ship(self):
+        """Center the spacecraft on the screen."""
+        self.center = self.screen_rect.centerx
